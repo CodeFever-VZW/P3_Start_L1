@@ -1,5 +1,6 @@
 import tkinter as tk
 import requests
+
 def geocode(plaats):
     url = "https://geocoding-api.open-meteo.com/v1/search"
     params = {"name": plaats, "count": 1, "language": "en", "format": "json"}
